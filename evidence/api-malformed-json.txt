@@ -1,0 +1,15 @@
+$ date
+2026-10-20 23:32:36 +08
+
+$ curl -i -X POST http://localhost:3000/api/books -H "Content-Type: application/json" --data '{"title":'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    24    0    15  100     9  14851   8910 --:--:-- --:--:-- --:--:-- 24000
+HTTP/1.1 200 OK
+Content-Type: application/json
+Date: Tue, 20 Oct 2026 15:32:36 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+{"result":"OK"}
